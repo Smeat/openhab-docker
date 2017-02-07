@@ -95,6 +95,9 @@ print_basepackages() {
 	      netbase \
 	      unzip \
 	      wget \
+	      sqlite3 \
+	      sqlite \
+	      iputils-ping \
 	      && rm -rf /var/lib/apt/lists/*
 
 	# Set locales
